@@ -1,0 +1,24 @@
+body{
+	background: #CEDAEF;
+}
+/*--CONTENIDOS DEL ADMIN--*/
+.contenidos{
+	background: #fff;
+	border-radius: 1em;
+	margin: 1em;
+	min-height: 361px;
+	padding: 1em;
+}
+
+/*--FOOTER--*/
+footer{
+	background: #414242;
+	text-align: center;
+	padding: 20px;
+}
+footer p{
+	color: #fff;
+	text-align: center;
+}
+
+
