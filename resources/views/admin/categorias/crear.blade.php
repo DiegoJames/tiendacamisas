@@ -10,6 +10,10 @@
 	<div class="row">
 		<div class="col-md-offset-3 col-md-6">
 			<div class="contenidos">
+				@if(count($errors)>0)
+					@include('admin.secciones.errores')
+				@endif
+
 				{!! Form::open(['route' => 'categorias.store']) !!}
 				    
 					<div class="form-group">

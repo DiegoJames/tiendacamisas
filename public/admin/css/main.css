@@ -9,6 +9,10 @@ body{
 	min-height: 361px;
 	padding: 1em;
 }
+.icon-home{
+	font-size: 60px;
+	margin: 20px;
+}
 
 /*--FOOTER--*/
 footer{

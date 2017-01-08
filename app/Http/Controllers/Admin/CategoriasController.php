@@ -38,7 +38,17 @@ class CategoriasController extends Controller
      */
     public function store(Request $request)
     {
-        //
+        //return $request->all();
+        $this->validate($request, [
+            'nombre' => 'required|unique:categorias|max:255',
+            'descripcion' => 'required',
+            ]);
+        Categoria::create([
+            'nombre'=> $request->get('nombre'),
+            'descripcion'=> $request->get('descripcion')
+        ]);
+        //return view('admin.categorias.index');
+        return redirect()->route('categorias.index');
     }
 
     /**

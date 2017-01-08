@@ -14,6 +14,10 @@ Route::bind('producto',function($idproducto){
 	return App\Producto::where('idproducto',$idproducto)->first();
 });
 
+Route::bind('categoria',function($idcartegoria){
+	return App\Categoria::where('idcartegoria',$idcartegoria)->first();
+});
+
 
 Route::get('/',[
 	'as'=>'inicio',
@@ -69,4 +73,8 @@ Route::get('payment/status',array(
 ));
 
 //Rutas para la administracion
+Route::get('administracion',function(){
+	return view('admin.home');
+});
+
 Route::resource('categorias', 'Admin\CategoriasController');

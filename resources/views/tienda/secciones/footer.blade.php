@@ -7,7 +7,7 @@
 		<div class="col-md-4">
 			<h3>Desarrollado por</h3>
 			<img src="{{asset('img/logo-mv.png')}}" class="avatar">
-			<p><a href="http://www.masterweb.la">Masterweb.la </a>Es un hecho establecido hace demasiado tiempo que un lector se distraerá con el contenido del texto de un sitio mientras que mira su diseño. El punto de usar Lorem Ipsum es que tiene una distribución más o menos normal de las letras, al contrario de usar textos</p>
+			<p><a href="#">Diego Orellana </a>Es un hecho establecido hace demasiado tiempo que un lector se distraerá con el contenido del texto de un sitio mientras que mira su diseño. El punto de usar Lorem Ipsum es que tiene una distribución más o menos normal de las letras, al contrario de usar textos</p>
 		</div>
 		<div class="col-md-4">
 			<h3>Siguenos</h3>
